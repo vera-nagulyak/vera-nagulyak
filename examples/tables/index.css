@@ -5,4 +5,13 @@ table {
 td {
     border: 2px solid indigo ;
     padding: 5px;
+    text-align: right;
+}
+caption {
+    caption-side: bottom;
+    text-align: center;
+}
+th {
+    border: solid 5px red;
+    text-align: center;
 }
