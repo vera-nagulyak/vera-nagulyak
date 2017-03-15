@@ -1,0 +1,88 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 450px;
+    height: 335px;
+    font-family: "Arial", sans-serif;
+    font-size: 10px;
+    color: white;
+}
+.layout-positioner {
+    width: 340px;
+    margin: 0 auto;
+    border: 2px dashed #3498db;
+
+}
+.layout-positioner::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+.header {
+    background-color: #34495e;
+
+}
+.layout-column {
+    min-height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 2px;
+    padding-left: 5px;
+
+}
+.layout-column-column1 {
+    background-color: #c0392b;
+}
+.layout-column-column2 {
+    width: 450px;
+    background-color: #3498DB;
+    margin-bottom: 0px;
+
+}
+.layout-column-column3 {
+    width: 160px;
+    height: 60px;
+    background-color: #c0392b;
+    float: left;
+}
+.layout-column-column4 {
+    width: 160px;
+    height: 60px;
+    background-color: #c0392b;
+    float: right;
+}
+.features {
+    margin-bottom: 10px;
+}
+
+.features .layout-column {
+    float: left;
+    margin-right: 10px;
+    width: 180px;
+    min-height: 120px;
+    background-color: #3498DB;
+    margin-bottom: 0;
+}
+
+.features .layout-column:last-child {
+    margin-right: 0;
+    width: 60px;
+}
+.features .layout-column:first-child {
+    width: 60px;
+}
+.footer {
+    min-height: 50px;
+    background-color: #34495e;
+
+}
+/*
+    Используемые цвета:
+    #34495e – мокрый асфальт
+    #c0392b – красный
+    #3498DB – синий
+*/
