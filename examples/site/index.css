@@ -71,5 +71,5 @@ ul {
     transition: 0.5s;
 }
 .menu__list:hover::after {
-    transform: scaleX(-1);
+    transform: rotate(-90deg);
 }
