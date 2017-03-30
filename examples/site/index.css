@@ -53,7 +53,7 @@ ul {
      opacity: 0;/*невидимость*/
      top: -9999em;
      border-left: 10px solid transparent;
-     transition: 0.5s opacity;
+     transition: 0.5s opacity;/*плавность появления*/
  }
  .menu__list:hover .menu__drop {
      opacity: 1;
@@ -69,6 +69,6 @@ ul {
     right: 0.7em;
     transition: 0.5s;
 }
-.menu__list:hover :after: {
+.menu__list:hover::after {
     transform: scaleX(-1);
 }
